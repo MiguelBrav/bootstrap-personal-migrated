@@ -1,0 +1,47 @@
+{
+    "title": "Personal",
+    "name": "startbootstrap-personal",
+    "version": "1.0.1",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "description": "A personal website template built with Bootstrap",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/template-overviews/personal",
+    "bugs": {
+        "url": "https://github.com/StartBootstrap/startbootstrap-personal/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (https://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/StartBootstrap/startbootstrap-personal.git"
+    },
+    "dependencies": {
+        "bootstrap": "^5.3.3"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.19",
+        "chokidar": "^3.5.3",
+        "postcss": "^8.4.38",
+        "prettier": "^3.3.2",
+        "pug": "^3.0.3",
+        "sass": "^1.83.4",
+        "shelljs": "^0.10.0",
+        "upath": "^2.0.1",
+        "vite": "^7.3.1"
+    }
+}
