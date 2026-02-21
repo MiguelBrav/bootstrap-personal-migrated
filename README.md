@@ -50,6 +50,11 @@ Este proyecto es una derivación (migración) del tema **Personal** creado por *
 - **Repositorio Original**: [GitHub Start Bootstrap Personal](https://github.com/StartBootstrap/startbootstrap-personal)
 - **Autor Original**: David Miller ([@davidtmiller](https://github.com/davidtmiller))
 
+## Demo Online
+https://templateboot.segurab.com/
+
+![App Screenshot](https://res.cloudinary.com/imgresd/image/upload/v1771691709/template_xjbthr.png)
+
 ### Licencia
 Al igual que el proyecto original, este trabajo se distribuye bajo la licencia **MIT**. Puedes usarlo para cualquier propósito, incluso comercial.
 
