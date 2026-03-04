@@ -114,12 +114,16 @@ export default defineConfig({
                     const cards = projectsData.map(project => `
                         <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
                             <div class="card-body p-0">
-                                <div class="d-flex align-items-center">
-                                    <div class="p-5">
-                                        <h2 class="fw-bolder">${project.name}</h2>
-                                        <p>${project.description}</p>
+                                <div class="row g-0 align-items-center">
+                                    <div class="col-md-7 col-lg-8">
+                                        <div class="p-4 p-md-5">
+                                            <h2 class="fw-bolder">${project.name}</h2>
+                                            <p>${project.description}</p>
+                                        </div>
                                     </div>
-                                    <img class="img-fluid" src="${project.image}" alt="..." style="width: 300px; height: 400px; object-fit: cover;"/>
+                                    <div class="col-md-5 col-lg-4">
+                                        <img class="img-fluid w-100" src="${project.image}" alt="..." style="height: 400px; object-fit: cover;"/>
+                                    </div>
                                 </div>
                             </div>
                         </div>`).join('');
