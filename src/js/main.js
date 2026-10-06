@@ -1,5 +1,5 @@
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { profileData } from './data.js';
+import { profileData } from './data.mjs';
 
 /**
  * Este archivo ahora solo maneja lógica interactiva en tiempo de ejecución.

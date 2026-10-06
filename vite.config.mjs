@@ -1,6 +1,9 @@
 import { defineConfig } from 'vite';
-import { resolve } from 'path';
-import { profileData, resumeData, projectsData, servicesData } from './src/js/data.js';
+import { resolve, dirname } from 'path';
+import { fileURLToPath } from 'url';
+import { profileData, resumeData, projectsData, servicesData } from './src/js/data.mjs';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
     css: {
